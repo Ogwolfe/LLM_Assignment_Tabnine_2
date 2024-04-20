@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChocoDelights - Online Chocolate Company</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2ede;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li:hover ul {
+    display: block;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.product-card {
+    width: 300px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.product-card img {
+    width:</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Products</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Chocolate Bars</a></li>
+                        <li><a href="#">Chocolate Candies</a></li>
+                        <li><a href="#">Chocolate Drinks</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1 style="color: #333;">Welcome to ChocoDelights</h1>
+            <p style="color: #333;">Indulge in our delicious chocolate products!</p>
+        </section>
+        <section class="products">
+            <h2 style="color: #333;">Our Chocolate Bars</h2>
+            <div class="product-card">
+                <img src="chocolate-bar1.jpg" alt="Chocolate Bar 1" style="border: 2px solid #333;">
+                <h3 style="color: #333;">Milk Chocolate Bar</h3>
+                <p style="color: #333;">A classic milk chocolate bar with a smooth texture and rich flavor.</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="chocolate-bar2.jpg" alt="Chocolate Bar 2" style="border: 2px solid #333;">
+                <h3 style="color: #333;">Dark Chocolate Bar</h3>
+                <p style="color: #333;">A rich and intense dark chocolate bar with a velvety texture.</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="chocolate-bar3.jpg" alt="Chocolate Bar 3" style="border: 2px solid #333;">
+                <h3 style="color: #333;">White Chocolate Bar</h3>
+                <p style="color: #333;">A creamy and sweet white chocolate bar with a delicate flavor.</p>
+                <button>Add to Cart</button>
+            </div>
+        </section>
+        <section class="products">
+            <h2 style="color: #333;">Our Chocolate Candies</h2>
+            <div class="product-card">
+                <img src="chocolate-candy1.jpg" alt="Chocolate Candy 1" style="border: 2px solid #333;">
+                <h3 style="color: #333;">Chocolate Truffles</h3>
+                <p style="color: #333;">Indulgent chocolate truffles with a smooth ganache filling.</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="chocolate-candy2.jpg" alt="Chocolate Candy 2" style="border: 2px solid #333;">
+                <h3 style="color: #333;">Chocolate Covered Strawberries</h3>
+                <p style="color: #333;">Fresh strawberries dipped in rich chocolate.</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="chocolate-candy3.jpg" alt="Chocolate Candy 3" style="border: 2px solid #333;">
+                <h3 style="color: #333;">Chocolate Coated Nuts</h3>
+                <p style="color: #333;">Roasted nuts coated in a layer of smooth chocolate.</p>
+                <button>Add to Cart</button>
+            </div>
+        </section>
+        <section class="products">
+            <h2 style="color: #333;">Our Chocolate Drinks</h2>
+            <div class="product-card">
+                <img src="chocolate-drink1.jpg" alt="Chocolate Drink 1" style="border: 2px solid #333;">
+                <h3 style="color: #333;">Hot Chocolate</h3>
+                <p style="color: #333;">A rich and creamy hot chocolate perfect for cold days.</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="chocolate-drink2.jpg" alt="Chocolate Drink 2" style="border: 2px solid #333;">
+                <h3 style="color: #333;">Chocolate Milkshake</h3>
+                <p style="color: #333;">A thick and indulgent chocolate milkshake made with real chocolate.</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="chocolate-drink3.jpg" alt="Chocolate Drink 3" style="border: 2px solid #333;">
+                <h3 style="color: #333;">Chocolate Mocha</h3>
+                <p style="color: #333;">A blend of rich chocolate and strong coffee in a warm cup.</p>
+                <button>Add to Cart</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p style="color: #333;">&copy; 2022 ChocoDelights. All rights reserved.</p>
+    </footer>
+</body>
+</html>
